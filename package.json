@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "devs": "nuxi dev --https --ssl-cert=server.cert --ssl-key=server.key",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  }
+}
